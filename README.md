@@ -5,7 +5,7 @@ A website that offers fitness training services.
 
 ## Bult With
 * HTML
-* CSS
+* CS
 
 ## Website
 https://cliffybar.github.io/run-buddy/
