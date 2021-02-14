@@ -11,7 +11,7 @@
 }
 
 body {
-    color: #var(--tertiary-color);
+    color: var(--tertiary-color);
     font-family: Helvetica, Arial, sans-serif;
 }
   
@@ -20,7 +20,7 @@ body {
   
 header {
     padding: 20px 35px;
-    background-color: #var(--tertiary-color);
+    background-color: var(--tertiary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -88,7 +88,7 @@ footer {
 }
   
 footer h2 {
-    color: #var(--secondary-color);
+    color: var(--secondary-color);
     font-size: 30px;
     margin: 0;
 }
@@ -99,7 +99,7 @@ footer div {
 }
   
 footer a {
-    color: #var(--secondary-color);
+    color: var(--secondary-color);
 }
 /* END FOOTER STYLES */
   
@@ -144,7 +144,7 @@ section {
     border: 3px solid #var(--secondary-color);
     background-color: rgba(252, 225, 56, 0.8);
     padding: 20px;
-    color: #var(--secondary-color);
+    color: var(--secondary-color);
     width: 40%;
     margin: 3.5%;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
@@ -161,7 +161,7 @@ section {
 }
   
 .form-input {
-    border: 1px solid #var(--secondary-color);
+    border: 1px solid var(--secondary-color);
     display: block;
     padding: 7px 15px;
     font-size: 16px;
@@ -183,7 +183,7 @@ section {
   
 .hero-form button {
     color: var(--primary-color);
-    background-color: #var(--secondary-color);
+    background-color: var(--secondary-color);
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -191,7 +191,7 @@ section {
 } 
 
 .hero-form button:hover {
-    background-color: #var(--tertiary-color);
+    background-color: var(--tertiary-color);
 }
 
 .checkbox-wrapper input, .radio-wrapper input {
@@ -210,7 +210,7 @@ section {
     height: 20px;
     width: 20px;
     background: rgba(255, 255, 255, 0.75);
-    border: 1px solid #var(--secondary-color);
+    border: 1px solid var(--secondary-color);
     position: absolute;
     top: -4px;
     left: -30px;
@@ -235,19 +235,19 @@ section {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #var(--secondary-color);
+    background: var(--secondary-color);
     position: absolute;
     left: -29px;
     top: -3px;
-    background-image: radial-gradient(circle, #var(--tertiary-color), #var(--secondary-color));
+    background-image: radial-gradient(circle, var(--tertiary-color), var(--secondary-color));
 }
 
 .checkbox-wrapper label::after {
     content: "";
     height: 6px;
     width: 14px;
-    border-left: 2px solid #var(--secondary-color);
-    border-bottom: 2px solid #var(--secondary-color);
+    border-left: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
     position: absolute;
     left: -26px;
     top: 1px;
@@ -262,7 +262,7 @@ section {
 .section-title {
     font-size: 48px;
     border-bottom: 3px solid;
-    color: #var(--secondary-color);
+    color: var(--secondary-color);
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
@@ -274,7 +274,7 @@ section {
 }
   
 .secondary-border {
-    border-color: #var(--tertiary-color);
+    border-color: var(--tertiary-color);
 }
 
 /* SECTION TITLE STYLES END */
@@ -284,7 +284,7 @@ section {
   
 .intro p {
     line-height: 1.7;
-    color: #var(--tertiary-color);
+    color: var(--tertiary-color);
     width: 80%;
     margin: 0 auto;
     font-size: 20px;
@@ -311,11 +311,11 @@ section {
 }
 
 .step:not(:last-child) {
-    border-bottom: 1px solid #var(--tertiary-color);
+    border-bottom: 1px solid var(--tertiary-color);
 }
   
 .step h3 {
-    color: #var(--secondary-color);
+    color: var(--secondary-color);
     font-size: 46px;
     flex: 1 30%;
 }
@@ -341,14 +341,14 @@ section {
 }
   
 .step-text p {
-    color: #var(--tertiary-color);
+    color: var(--tertiary-color);
     font-size: 18px;
 }
   
 .step-text h4 {
     font-size: 26px;
     line-height: 1.5;
-    color: #var(--secondary-color);
+    color: var(--secondary-color);
 }
   
 /* WHAT YOU DO STYLES END */
@@ -367,7 +367,7 @@ section {
 .trainer {
     margin: 20px;
     flex: 1;
-    background: #var(--secondary-color);
+    background: var(--secondary-color);
     color: var(--primary-color);
 }
   
@@ -400,7 +400,7 @@ section {
 /* REACH OUT STYLES START */
   
 .contact {
-    background: #var(--secondary-color);
+    background: var(--secondary-color);
 }
   
 .contact h2 {
@@ -439,11 +439,11 @@ section {
 }
   
 .contact-form input, .contact-form textarea {
-    border: 1px solid #var(--secondary-color);
+    border: 1px solid var(--secondary-color);
     display: block;
     padding: 7px 15px;
     font-size: 16px;
-    color: #var(--secondary-color);
+    color: var(--secondary-color);
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
@@ -459,7 +459,7 @@ section {
     width: 100%;
     border: none;
     background: var(--primary-color);
-    color: #var(--secondary-color);
+    color: var(--secondary-color);
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
@@ -468,7 +468,7 @@ section {
 
 .contact-form button:hover {
     color: var(--primary-color);
-    background: #var(--tertiary-color);
+    background: var(--tertiary-color);
 }
   
 .contact-info a {
